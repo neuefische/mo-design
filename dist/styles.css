@@ -13,36 +13,42 @@
   right: 0;
   bottom: 0;
   background-color: #3e4f59;
-  border-top: 1px solid black;
 }
 
 .nav-footer__button {
-  width: 50px;
+  width: 70px;
   height: 30px;
-  border: 1px solid black;
-  border-radius: 100px 10px/120px;
   margin: 10px;
-  background-color: #818da6;
+  background-color: #3e4f59;
+  border: none;
   cursor: pointer;
   outline: none;
   transition: width 0.5s;
 }
 
 .nav-footer__button--active {
-  background-color: #f7f9ff;
+  background-color: #b8c0d9;
+  border-radius: 5px;
 }
 
 .nav-footer__button__svg {
   transition: all 1s;
   transform-origin: 50% 50%;
+  fill: #b8c0d9;
 }
 
 .nav-footer__button__svg:hover {
   transform: scale(1.2);
+  fill: #2a3640;
+}
+
+.nav-footer__button__svg--active {
+  fill: #2a3640;
 }
 
 .nav-footer__button:hover {
   background-color: #b8c0d9;
+  border-radius: 5px;
 }
 
 *,

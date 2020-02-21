@@ -15,33 +15,39 @@
   right: 0;
   bottom: 0;
   background-color: var.$mo5;
-  border-top: 1px solid black;
 }
 
 .nav-footer__button {
-  width: 50px;
+  width: 70px;
   height: 30px;
-  border: 1px solid black;
-  border-radius: 100px 10px / 120px;
   margin: 10px;
-  background-color: var.$mo3;
+  background-color: var.$mo5;
+  border: none;
   cursor: pointer;
   outline: none;
   transition: width 0.5s;
 }
 
 .nav-footer__button--active {
-  background-color: var.$mo1;
+  background-color: var.$mo2;
+  border-radius: 5px;
 }
 
 .nav-footer__button__svg {
   transition: all 1s;
   transform-origin: 50% 50%;
+  fill: var.$mo2;
 }
 .nav-footer__button__svg:hover {
   transform: scale(1.2);
+  fill: var.$mo4;
+}
+
+.nav-footer__button__svg--active {
+  fill: var.$mo4;
 }
 
 .nav-footer__button:hover {
   background-color: var.$mo2;
+  border-radius: 5px;
 }
