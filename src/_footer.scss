@@ -1,3 +1,5 @@
+@use 'variables' as var;
+
 *,
 *::after,
 *::before {
@@ -12,7 +14,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #3e4f59;
+  background-color: var.$mo5;
   border-top: 1px solid black;
 }
 
@@ -20,35 +22,26 @@
   width: 50px;
   height: 30px;
   border: 1px solid black;
-  border-radius: 100px 10px/120px;
+  border-radius: 100px 10px / 120px;
   margin: 10px;
-  background-color: #818da6;
+  background-color: var.$mo3;
   cursor: pointer;
   outline: none;
   transition: width 0.5s;
 }
 
 .nav-footer__button--active {
-  background-color: #f7f9ff;
+  background-color: var.$mo1;
 }
 
 .nav-footer__button__svg {
   transition: all 1s;
   transform-origin: 50% 50%;
 }
-
 .nav-footer__button__svg:hover {
   transform: scale(1.2);
 }
 
 .nav-footer__button:hover {
-  background-color: #b8c0d9;
+  background-color: var.$mo2;
 }
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-/*# sourceMappingURL=styles.css.map */

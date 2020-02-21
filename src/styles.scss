@@ -1,0 +1,8 @@
+@use './footer';
+@use './variables';
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
