@@ -1,0 +1,18 @@
+@use 'variables' as var;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  background-color: var.$mo5;
+}
