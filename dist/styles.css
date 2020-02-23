@@ -111,6 +111,29 @@
   font-size: 1rem;
 }
 
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: justify;
+  padding: 20px;
+  background-color: #818da6;
+}
+
+.imgwrapper {
+  height: 350px;
+  position: relative;
+  margin: 10px;
+}
+
+.respimg {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  border-radius: 50%;
+}
+
 *,
 *::after,
 *::before {
