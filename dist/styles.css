@@ -111,19 +111,40 @@
   font-size: 1rem;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 .review-slider {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   border: 5px solid #2a3640;
+  border-left: none;
+  border-right: none;
   width: 100vw;
-  height: 250px;
+  height: 200px;
+  position: relative;
+  margin: auto;
 }
 
 .review {
+  position: relative;
+  padding: 5px;
   height: 100%;
-  width: 100px;
+  width: auto;
+  margin: auto;
+}
+
+.reviewsvg {
+  height: 50px;
+  width: 50px;
+  float: right;
+  margin: 10px;
 }
 
 *,
