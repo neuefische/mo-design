@@ -1,0 +1,77 @@
+@use 'variables' as var;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.products {
+  width: 100%;
+  height: auto;
+  padding: 20px 10px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  object-fit: contain;
+  background-color: var.$mo2;
+}
+
+.products-item {
+  flex: 1;
+  margin: 5px;
+  border: 4px solid var.$mo5;
+  background-color: var.$mo1;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.products-item-1 {
+  min-height: 200px;
+  min-width: 300px;
+  background-color: var.$mo1;
+}
+
+.products-item-2 {
+  min-height: 200px;
+  min-width: 300px;
+}
+
+.products-item-3 {
+  min-height: 200px;
+  min-width: 300px;
+}
+
+.products-item-4 {
+  min-height: 200px;
+  min-width: 300px;
+}
+
+.products {
+  margin: 40px, 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.headlines {
+  font-family: var.$hl;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 5px 0;
+}
+
+.text {
+  font-family: var.$text;
+  font-weight: 300;
+  font-size: 1rem;
+  color: var.$mo6;
+  list-style-type: none;
+}
+
+.text a {
+  color: var.$mo6;
+}
