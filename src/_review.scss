@@ -1,0 +1,16 @@
+@use './variables' as var;
+
+.review-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 5px solid var.$mo4;
+  width: 100vw;
+  height: 250px;
+}
+
+.review {
+  height: 100%;
+  width: 100px;
+}

@@ -111,6 +111,21 @@
   font-size: 1rem;
 }
 
+.review-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 5px solid #2a3640;
+  width: 100vw;
+  height: 250px;
+}
+
+.review {
+  height: 100%;
+  width: 100px;
+}
+
 *,
 *::after,
 *::before {
