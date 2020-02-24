@@ -10,6 +10,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  padding-top: 40px;
 }
 
 .aside-logo {
@@ -31,16 +32,40 @@
   margin-bottom: 70px;
 }
 
-.aside-logo-text-svg {
-  fill: red;
-}
-
 .item {
   max-width: 450px;
-  margin-top: 40px;
+  margin-bottom: 50px;
+
   margin-left: 60px;
 }
 
 .item__img {
   width: 100%;
+  height: 338px;
+  object-fit: cover;
+}
+
+.item__button {
+  width: 100%;
+  height: 40px;
+  background-color: var.$mo2;
+  color: var.$mo5;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  transition: all 2s;
+}
+
+.item__button:hover {
+  background-color: var.$mo3;
+}
+
+.item__button-text {
+  transition: all 1s;
+  transform-origin: 50% 50%;
+}
+
+.item__button-text:hover {
+  transform: scale(1.2);
+  color: var.$mo1;
 }
