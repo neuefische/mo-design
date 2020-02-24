@@ -78,7 +78,7 @@
   height: 100vh;
 }
 
-.main {
+main {
   display: flex;
   flex-direction: column;
   flex-grow: 2;
@@ -109,6 +109,29 @@
   font-family: "Quicksand";
   font-weight: 300;
   font-size: 1rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.new-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.aside-logo {
+  position: fixed;
+  background-color: #172426;
+  width: 60px;
+  min-height: 1000px;
+}
+
+.item {
+  max-width: auto;
 }
 
 *,

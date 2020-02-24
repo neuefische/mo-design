@@ -1,0 +1,28 @@
+@use 'variables' as var;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.new-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.aside-logo {
+  position: fixed;
+
+  background-color: var.$mo6;
+  width: 60px;
+  min-height: 1000px;
+}
+
+.item {
+  max-width: auto;
+}
+
+.item__img {
+}
