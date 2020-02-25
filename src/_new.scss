@@ -1,0 +1,100 @@
+@use 'variables' as var;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.new-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.designer-logo {
+  display: flex;
+  position: fixed;
+  justify-self: left;
+  background-color: var.$mo6;
+  width: 60px;
+  left: 0;
+  top: 50px;
+  bottom: 0;
+}
+
+.designer-logo-text {
+  display: flex;
+  transform: rotate(270deg);
+  align-self: flex-end;
+  width: 70px;
+  margin-bottom: 70px;
+}
+
+.item {
+  max-width: 450px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+}
+
+.item__img {
+  width: 100%;
+  height: 338px;
+  object-fit: cover;
+}
+
+.item__img-text {
+  color: var.$mo6;
+}
+
+.item__button {
+  width: 100%;
+  height: 40px;
+  background-color: var.$mo2;
+  color: var.$mo5;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  transition: all 2s;
+}
+
+.item__button:hover {
+  background-color: var.$mo3;
+}
+
+.item__button-text {
+  transition: all 1s;
+  transform-origin: 50% 50%;
+}
+
+.item__button-text:hover {
+  transform: scale(1.2);
+  color: var.$mo1;
+}
+
+.aside-info {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  background-color: var.$mo6;
+  justify-content: center;
+}
+
+.aside-info__img {
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.aside-info__text {
+  color: var.$mo1;
+  max-width: 500px;
+  align-self: center;
+  margin-left: 20px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
