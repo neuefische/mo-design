@@ -1,0 +1,23 @@
+@use './variables' as var;
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 250px;
+  width: 100vw;
+  background-color: black;
+}
+
+.socialmedia-icon {
+  color: var.$mo1;
+  height: 80%;
+  width: 40%;
+  margin: 10px;
+}
+
+.link {
+  margin: 0;
+  display: block;
+}
