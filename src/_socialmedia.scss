@@ -1,0 +1,16 @@
+@use './variables' as var;
+
+.socialmedia {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 200px;
+  width: 100vw;
+  background-color: black;
+}
+
+.socialmedia-icon {
+  color: var.$mo1;
+  height: auto;
+  width: 30%;
+}

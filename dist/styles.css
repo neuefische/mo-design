@@ -284,6 +284,21 @@
   margin: 10px;
 }
 
+.socialmedia {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 200px;
+  width: 100vw;
+  background-color: black;
+}
+
+.socialmedia-icon {
+  color: #f7f9ff;
+  height: auto;
+  width: 30%;
+}
+
 *,
 *::after,
 *::before {
