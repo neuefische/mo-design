@@ -7,6 +7,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.top {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .products {
   width: 100%;
   height: auto;

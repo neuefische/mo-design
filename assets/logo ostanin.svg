@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   sodipodi:docname="logo ostanin.svg"
+   id="svg18"
+   viewBox="0 0 117.8 13.987"
+   version="1.1"
+   height="13.987mm"
+   width="117.8mm">
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     inkscape:current-layer="g16"
+     inkscape:window-maximized="0"
+     inkscape:window-y="51"
+     inkscape:window-x="605"
+     inkscape:cy="26.432127"
+     inkscape:cx="275.60001"
+     inkscape:zoom="3.1871285"
+     showgrid="false"
+     id="namedview20"
+     inkscape:window-height="1113"
+     inkscape:window-width="1727"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     inkscape:document-rotation="0"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g16"
+     transform="translate(-31.384 -42.106)">
+    <text
+       id="text14"
+       xml:space="preserve"
+       style="line-height:1.25;fill:#b8c0d9;fill-opacity:0.0117647"
+       stroke-width=".26458"
+       font-size="16.933px"
+       font-family="sans-serif"
+       fill="#000000"
+       y="55.940475"
+       x="30.994047"><tspan
+         style="fill:#f7f9ff;fill-opacity:1"
+         id="tspan12"
+         stroke-width=".26458"
+         font-family="Oswald"
+         dy="0 0 0 0 0 0 0 0"
+         y="55.940475"
+         x="30.994047">VLADIMIR OSTANIN</tspan></text>
+  </g>
+</svg>
