@@ -1,0 +1,37 @@
+@use './variables' as var;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.review-slider {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid var.$mo4;
+  border-left: none;
+  border-right: none;
+  width: 100vw;
+  height: 200px;
+  position: relative;
+  margin: auto;
+}
+
+.review {
+  position: relative;
+  padding: 5px;
+  height: 100%;
+  width: auto;
+  margin: auto;
+}
+
+.reviewsvg {
+  height: 50px;
+  width: 50px;
+  float: right;
+  margin: 10px;
+}
