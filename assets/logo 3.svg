@@ -7,36 +7,40 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
-   sodipodi:docname="logo 3.svg"
-   id="svg845"
-   viewBox="0 0 126.42 18.04"
+   width="103.45598mm"
+   height="26.382572mm"
    version="1.1"
-   height="18.04mm"
-   width="126.42mm">
+   viewBox="0 0 103.45598 26.382571"
+   id="svg845"
+   sodipodi:docname="logo 3.svg"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)">
   <defs
      id="defs849" />
   <sodipodi:namedview
-     inkscape:current-layer="g843"
-     inkscape:window-maximized="0"
-     inkscape:window-y="23"
-     inkscape:window-x="0"
-     inkscape:cy="34.09134"
-     inkscape:cx="238.90393"
-     inkscape:zoom="1.967318"
-     showgrid="false"
-     id="namedview847"
-     inkscape:window-height="1039"
-     inkscape:window-width="1446"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
-     inkscape:document-rotation="0"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     pagecolor="#ffffff"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     inkscape:document-rotation="0"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="896"
+     inkscape:window-height="814"
+     id="namedview847"
+     showgrid="false"
+     inkscape:zoom="1.0330121"
+     inkscape:cx="221.66824"
+     inkscape:cy="251.50994"
+     inkscape:window-x="359"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g843" />
   <metadata
      id="metadata833">
     <rdf:RDF>
@@ -45,37 +49,49 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="g843"
-     transform="translate(-36.009 -38.717)">
+     transform="translate(-39.815158,9.5928708)"
+     id="g843">
     <text
-       id="text837"
-       xml:space="preserve"
-       style="line-height:1.25;fill:#f7f9ff;fill-opacity:1;"
-       stroke-width=".26458"
-       font-size="22.578px"
-       font-family="sans-serif"
+       x="38.708836"
+       y="16.635536"
        fill="#000000"
-       y="56.575798"
-       x="34.902481"><tspan
-         style="fill:#f7f9ff;fill-opacity:1;"
-         id="tspan835"
-         stroke-width=".26458"
-         font-family="Prisma"
+       font-family="sans-serif"
+       font-size="22.578px"
+       stroke-width=".26458"
+       style="line-height:1.25;fill:#f7f9ff;fill-opacity:1;"
+       xml:space="preserve"
+       id="text837"><tspan
+         x="38.708836"
+         y="16.635536"
          fill="#000000"
-         y="56.575798"
-         x="34.902481">mo-design</tspan></text>
+         font-family="Prisma"
+         stroke-width=".26458"
+         id="tspan835"
+         style="fill:#f7f9ff;fill-opacity:1;">mo</tspan></text>
     <g
-       id="g841"
-       fill="#a0a0a0">
+       fill="#a0a0a0"
+       id="g841">
       <path
-         id="path839"
-         d="m330.94 167c0-1.0668 0.0841-1.5032 0.18679-0.96983 0.10274 0.53341 0.10274 1.4062 0 1.9397-0.10273 0.5334-0.18679 0.097-0.18679-0.96983z"
-         transform="scale(.26458)" />
+         inkscape:connector-curvature="0"
+         transform="scale(0.26458)"
+         d="m 330.94,167 c 0,-1.0668 0.0841,-1.5032 0.18679,-0.96983 0.10274,0.53341 0.10274,1.4062 0,1.9397 -0.10273,0.5334 -0.18679,0.097 -0.18679,-0.96983 z"
+         id="path839" />
     </g>
+    <text
+       id="text844"
+       y="8.2926283"
+       x="70.64682"
+       style="font-style:normal;font-weight:normal;font-size:22.57779999999999987px;line-height:1.25;font-family:sans-serif;fill:#f7f9ff;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Prisma;-inkscape-font-specification:Prisma;stroke-width:0.264583;fill:#f7f9ff;fill-opacity:1;"
+         y="8.2926283"
+         x="70.64682"
+         id="tspan842"
+         sodipodi:role="line">design</tspan></text>
   </g>
 </svg>
