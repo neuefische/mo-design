@@ -205,12 +205,13 @@
   align-items: center;
   text-align: justify;
   padding: 20px;
+  background-color: #818da6;
 }
 
 .imgwrapper1 {
   height: auto;
   width: 100vw;
-  position: relative;
+  background-color: #818da6;
 }
 
 .storeimg {
@@ -373,23 +374,22 @@
 .socialmedia {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 250px;
+  justify-content: center;
+  height: 50px;
   width: 100vw;
+  margin-bottom: 50px;
   background-color: black;
 }
 
 .socialmedia-icon {
-  color: #f7f9ff;
-  height: 80%;
   width: 40%;
-  margin: 10px;
+  max-height: 80%;
 }
 
 .link {
-  margin: 0;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 *,
