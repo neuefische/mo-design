@@ -422,6 +422,28 @@ main {
   transition: all 1s;
 }
 
+.contact__adress {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 15px;
+  background-color: #172426;
+  color: #f7f9ff;
+}
+
+.contact__adress--map {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.contact__adress--map-block {
+  min-width: 300px;
+  max-width: 400px;
+  max-height: 200px;
+  padding-top: 7px;
+}
+
 *,
 *::after,
 *::before {
