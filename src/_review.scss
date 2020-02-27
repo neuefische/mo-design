@@ -7,31 +7,32 @@
 }
 
 .review-slider {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
   border: 5px solid var.$mo4;
   border-left: none;
   border-right: none;
   width: 100vw;
   height: 200px;
-  position: relative;
   margin: auto;
 }
 
 .review {
-  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
   padding: 5px;
-  height: 100%;
-  width: auto;
+  width: 60%;
   margin: auto;
+  background-color: var.$mo1;
 }
 
-.reviewsvg {
+.review-svg {
   height: 50px;
   width: 50px;
-  float: right;
   margin: 10px;
+}
+
+.review-text {
+  flex-basis: 100%;
+  flex-grow: 1;
+  font-size: 0.8rem;
 }

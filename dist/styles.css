@@ -7,11 +7,7 @@
 .nav-footer {
   display: flex;
   justify-content: center;
-  position: fixed;
   height: 50px;
-  left: 0;
-  right: 0;
-  bottom: 0;
   background-color: #3e4f59;
 }
 
@@ -60,30 +56,23 @@
 .header {
   display: flex;
   justify-content: flex-start;
-  position: fixed;
   height: 50px;
-  left: 0;
-  right: 0;
-  top: 0;
   background-color: #3e4f59;
 }
 
-.body {
+body {
   margin: 0;
   display: flex;
-  flex-direction: column;
-  overflow: scroll;
+  flex-flow: column nowrap;
   width: 100vw;
   height: 100vh;
 }
 
-.main {
+main {
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  flex-grow: 1;
   overflow: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
   background-color: #818da6;
 }
 
@@ -342,33 +331,34 @@
 }
 
 .review-slider {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
   border: 5px solid #2a3640;
   border-left: none;
   border-right: none;
   width: 100vw;
   height: 200px;
-  position: relative;
   margin: auto;
 }
 
 .review {
-  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
   padding: 5px;
-  height: 100%;
-  width: auto;
+  width: 60%;
   margin: auto;
+  background-color: #f7f9ff;
 }
 
-.reviewsvg {
+.review-svg {
   height: 50px;
   width: 50px;
-  float: right;
   margin: 10px;
+}
+
+.review-text {
+  flex-basis: 100%;
+  flex-grow: 1;
+  font-size: 0.8rem;
 }
 
 .socialmedia {
@@ -377,7 +367,6 @@
   justify-content: center;
   height: 50px;
   width: 100vw;
-  margin-bottom: 50px;
   background-color: black;
 }
 

@@ -1,21 +1,18 @@
 @use './variables' as var;
 
-.body {
+body {
   margin: 0;
   display: flex;
-  flex-direction: column;
-  overflow: scroll;
+  flex-flow: column nowrap;
   width: 100vw;
   height: 100vh;
 }
 
-.main {
+main {
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  flex-grow: 1;
   overflow: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
   background-color: var.$mo3;
 }
 
