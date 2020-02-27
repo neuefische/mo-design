@@ -1,0 +1,42 @@
+@use 'variables' as var;
+
+.contact__container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact__form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 15px;
+}
+
+.contact__input {
+  width: 250px;
+  height: 25px;
+  margin: 7px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contact__input--bewertung {
+  height: 200px;
+  width: 250px;
+  margin: 7px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contact__input--button {
+  width: 150px;
+  height: 25px;
+  margin: 7px;
+  border-radius: 5px;
+}
+
+.contact__input--button:hover {
+  background-color: var.$mo5;
+  color: var.$mo1;
+  transition: all 1s;
+}
