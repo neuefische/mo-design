@@ -1,13 +1,5 @@
 @use 'variables' as var;
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .top {
   display: flex;
   width: 100%;
@@ -17,13 +9,12 @@
   justify-content: center;
 }
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.top-img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
 }
+
 .products {
   width: 100%;
   height: auto;
