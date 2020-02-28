@@ -11,3 +11,11 @@ function addReview() {
 }
 
 addReview();
+
+function getReview() {
+  const reviewInputOriginal = document.querySelector("textarea");
+  let reviewInput = reviewInputOriginal.innerHTML;
+  console.log(reviewInput);
+}
+
+getReview();
