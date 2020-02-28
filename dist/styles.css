@@ -314,41 +314,45 @@ main {
   padding-right: 10px;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
 .review-slider {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
   border: 5px solid #2a3640;
   border-left: none;
   border-right: none;
   width: 100vw;
-  height: 200px;
-  margin: auto;
+  background-color: #b8c0d9;
 }
 
 .review {
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  padding: 5px;
-  width: 60%;
-  margin: auto;
-  background-color: #f7f9ff;
+  border: 3px dotted grey;
+  flex-grow: 1;
+  flex-basis: 25%;
+  margin: 10px;
+  min-width: 240px;
 }
 
-.review-svg {
-  height: 50px;
-  width: 50px;
-  margin: 10px;
+.reviewicon {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  flex-basis: 20%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.reviewsvg {
+  max-width: 60px;
 }
 
 .review-text {
-  flex-basis: 100%;
-  flex-grow: 1;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  flex-grow: 2;
+  flex-basis: 80%;
+  padding: 15px;
 }
 
 .socialmedia {
@@ -369,6 +373,69 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact__container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact__form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 15px;
+}
+
+.contact__input {
+  width: 250px;
+  height: 25px;
+  margin: 7px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contact__input--bewertung {
+  height: 200px;
+  width: 250px;
+  margin: 7px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contact__input--button {
+  width: 150px;
+  height: 25px;
+  margin: 7px;
+  border-radius: 5px;
+}
+
+.contact__input--button:hover {
+  background-color: #3e4f59;
+  color: #f7f9ff;
+  transition: all 1s;
+}
+
+.contact__adress {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 15px;
+  background-color: #172426;
+  color: #f7f9ff;
+}
+
+.contact__adress--map {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.contact__adress--map-block {
+  min-width: 300px;
+  max-width: 400px;
+  max-height: 200px;
+  padding-top: 7px;
 }
 
 *,

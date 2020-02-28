@@ -1,38 +1,42 @@
 @use './variables' as var;
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
 .review-slider {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
   border: 5px solid var.$mo4;
   border-left: none;
   border-right: none;
   width: 100vw;
-  height: 200px;
-  margin: auto;
+  background-color: var.$mo2;
 }
 
 .review {
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  padding: 5px;
-  width: 60%;
-  margin: auto;
-  background-color: var.$mo1;
+  border: 3px dotted grey;
+  flex-grow: 1;
+  flex-basis: 25%;
+  margin: 10px;
+  min-width: 240px;
 }
 
-.review-svg {
-  height: 50px;
-  width: 50px;
-  margin: 10px;
+.reviewicon {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  flex-basis: 20%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.reviewsvg {
+  max-width: 60px;
 }
 
 .review-text {
-  flex-basis: 100%;
-  flex-grow: 1;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  flex-grow: 2;
+  flex-basis: 80%;
+  padding: 15px;
 }
