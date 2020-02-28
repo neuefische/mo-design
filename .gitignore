@@ -80,6 +80,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
+dist
 
 # Gatsby files
 .cache/
@@ -104,4 +105,3 @@ typings/
 
 .DS_Store
 .vscode
-dist

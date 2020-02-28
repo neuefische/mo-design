@@ -4,6 +4,7 @@
   "description": "Create a fashion store site",
   "main": "index.js",
   "scripts": {
+    "build": "sass src/styles.scss dist/styles.css",
     "dev": "sass --watch src/styles.scss dist/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
