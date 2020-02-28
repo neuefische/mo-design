@@ -384,7 +384,7 @@ main {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  padding: 15px;
+  padding: 22px;
 }
 
 .contact__input {
@@ -420,6 +420,7 @@ main {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  width: 100%;
   padding: 15px;
   background-color: #172426;
   color: #f7f9ff;
@@ -436,6 +437,11 @@ main {
   max-width: 400px;
   max-height: 200px;
   padding-top: 7px;
+  margin: 7px;
+}
+
+.contact__impressum {
+  padding: 22px;
 }
 
 *,
